@@ -6,7 +6,8 @@ django-jstemplate>=1.3.6
 django_compressor==1.6
 
 # Web interface helpers
-django-proxy>=1.0.2
+#django-proxy>=1.0.2
+git+https://github.com/mjumbewu/django-proxy.git@4088699#egg=django-proxy==1.1.0
 httpagentparser
 
 # Config
