@@ -278,14 +278,6 @@ place:
         - key: placeholder
           value: _(Name)
 
-    - prompt: _(Your Email)
-      type: email
-      name: private-submitter_email
-      sticky: true
-      attrs:
-        - key: placeholder
-          value: _(Email address)
-
     - prompt: _(Organization)
       type: text
       name: organization
@@ -293,6 +285,14 @@ place:
       attrs:
         - key: placeholder
           value: _(Organization)
+
+    - prompt: _(Your Email)
+      type: email
+      name: private-submitter_email
+      sticky: true
+      attrs:
+        - key: placeholder
+          value: _(Email address)
 
     - prompt: _(Phone #)
       type: tel
