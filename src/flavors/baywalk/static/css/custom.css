@@ -12,8 +12,19 @@ body {
 /* =Header
 -------------------------------------------------------------- */
 
+#site-header {
+  background-color: white;
+  color: #121b3d;
+}
+
 #site-title {
   font-family: 'Roboto', sans-serif;
+  background-image: url('images/miamidda-logo-bow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 4rem;
+  font-size: 0;
 }
 
 /* =Media Queries
