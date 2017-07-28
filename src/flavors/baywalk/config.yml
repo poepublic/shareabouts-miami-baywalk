@@ -81,16 +81,16 @@ place_types:
       - condition: '"{{location_type}}" === "education" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/education-01.png
-          iconSize: [17, 18]
-          iconAnchor: [9, 9]
+          iconSize: [19, 19]
+          iconAnchor: [10, 10]
 
       - condition: '"{{location_type}}" === "education" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/education-01.png
-          shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [25, 41]
-          shadowSize: [41, 41]
-          iconAnchor: [12, 41]
+          # shadowUrl: /static/css/images/circle-shadow.png
+          iconSize: [39, 39]
+          # shadowSize: [37, 37]
+          iconAnchor: [20, 20]
 
   entertainment:
     label: _(Entertainment)
@@ -106,16 +106,16 @@ place_types:
       - condition: '"{{location_type}}" === "entertainment" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/entertainment-01.png
-          iconSize: [17, 18]
-          iconAnchor: [9, 9]
+          iconSize: [19, 19]
+          iconAnchor: [10, 10]
 
       - condition: '"{{location_type}}" === "entertainment" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/entertainment-01.png
-          shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [25, 41]
-          shadowSize: [41, 41]
-          iconAnchor: [12, 41]
+          # shadowUrl: /static/css/images/circle-shadow.png
+          iconSize: [39, 39]
+          # shadowSize: [37, 37]
+          iconAnchor: [20, 20]
 
   engagement:
     label: _(Engagement/Advocacy)
@@ -131,16 +131,16 @@ place_types:
       - condition: '"{{location_type}}" === "engagement" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/engagement-01.png
-          iconSize: [17, 18]
-          iconAnchor: [9, 9]
+          iconSize: [19, 19]
+          iconAnchor: [10, 10]
 
       - condition: '"{{location_type}}" === "engagement" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/engagement-01.png
-          shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [25, 41]
-          shadowSize: [41, 41]
-          iconAnchor: [12, 41]
+          # shadowUrl: /static/css/images/circle-shadow.png
+          iconSize: [39, 39]
+          # shadowSize: [37, 37]
+          iconAnchor: [20, 20]
 
   culture:
     label: _(Arts/Culture)
@@ -156,16 +156,16 @@ place_types:
       - condition: '"{{location_type}}" === "culture" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/culture-01.png
-          iconSize: [17, 18]
-          iconAnchor: [9, 9]
+          iconSize: [19, 19]
+          iconAnchor: [10, 10]
 
       - condition: '"{{location_type}}" === "culture" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/culture-01.png
-          shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [25, 41]
-          shadowSize: [41, 41]
-          iconAnchor: [12, 41]
+          # shadowUrl: /static/css/images/circle-shadow.png
+          iconSize: [39, 39]
+          # shadowSize: [37, 37]
+          iconAnchor: [20, 20]
 
   wellness:
     label: _(Health/Wellness)
@@ -181,16 +181,16 @@ place_types:
       - condition: '"{{location_type}}" === "wellness" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/wellness-01.png
-          iconSize: [17, 18]
-          iconAnchor: [9, 9]
+          iconSize: [19, 19]
+          iconAnchor: [10, 10]
 
       - condition: '"{{location_type}}" === "wellness" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/wellness-01.png
-          shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [25, 41]
-          shadowSize: [41, 41]
-          iconAnchor: [12, 41]
+          # shadowUrl: /static/css/images/circle-shadow.png
+          iconSize: [39, 39]
+          # shadowSize: [37, 37]
+          iconAnchor: [20, 20]
 
 
 activity:
