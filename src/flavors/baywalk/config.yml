@@ -280,7 +280,7 @@ place:
 
     - prompt: _(Organization)
       type: text
-      name: organization
+      name: private-organization
       optional: true
       attrs:
         - key: placeholder
@@ -294,9 +294,9 @@ place:
         - key: placeholder
           value: _(Email address)
 
-    - prompt: _(Phone #)
+    - prompt: _(Phone Number)
       type: tel
-      name: phone
+      name: private-submitter_phone
 
 survey:
   submission_type: comments
