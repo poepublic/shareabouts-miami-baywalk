@@ -216,6 +216,13 @@ place:
   location_item_name: idea
 
   items:
+    - prompt: _(What is the title of your idea?)
+      name: title
+      type: text
+      attrs:
+        - key: size
+          value: 100
+
     - prompt: _(What kind of activation is it?)
       type: radiogroup
       options:
@@ -233,42 +240,71 @@ place:
       attrs:
         - key: required
 
-    - prompt: _(What’s the intent of your activation idea?)
+    - prompt: _(What’s your big idea?)
       name: intent
-      type: text
+      type: textarea
+      attrs:
+        - key: maxlength
+          value: 750
+
+    - prompt: _(What’s the purpose?)
+      name: intent
+      type: textarea
       attrs:
         - key: placeholder
-          value: "So I can..."
-        - key: size
-          value: 200
-
-    - prompt: _(Who do you need to work with to make this happen? Who are your partners and/or sponsors?)
-      name: partners
-      type: textarea
+          value: _(So I can...)
+        - key: maxlength
+          value: 100
 
     - prompt: _(How do you define success?)
       name: success
       type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(Who is your audience?)
       name: audience
       type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(Who will help you market/promote this event?)
       name: promoters
       type: textarea
+      attrs:
+        - key: maxlength
+          value: 750
+
+    - prompt: _(Who do you need to work with to make this happen? Who are your partners and/or sponsors?)
+      name: partners
+      type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(What is your timeline for implementation?  When would your events be held?)
       name: timeline
       type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(What is your budget? Grant requests will be limited to $5,000 and below.)
+      help_text: _(Please specify your anticipated expenses by line item.)
       name: budget
-      type: text
+      type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(How will your proposal help grow awareness about Baywalk?)
       name: growing_awareness
       type: textarea
+      attrs:
+        - key: maxlength
+          value: 100
 
     - prompt: _(Your Name)
       type: text
