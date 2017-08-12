@@ -285,6 +285,7 @@ place:
         - key: required
 
     - prompt: _(What’s your big idea?)
+      help_text: _(Sum it up in three sentences or less.)
       name: description
       type: textarea
       attrs:
@@ -423,10 +424,14 @@ support:
   anonymous_name: _(Someone)
 
 pages:
-  - title: _(About)
+  - title: _(Baywalk Activation Grant)
     slug: about
     name: overview
     start_page: true
+
+  - title: _(About the Miami DDA)
+    external: true
+    url: http://www.miamidda.com/
 
   - title: Filter Places
     slug: filter-type
