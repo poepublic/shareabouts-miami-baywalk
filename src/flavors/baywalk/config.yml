@@ -305,6 +305,11 @@ place:
         - key: maxlength
           value: 100
 
+    - prompt: _(Additional notes to the organizers)
+      name: private_notes
+      type: textarea
+      help_text: _(All of the information above will be public on the website. If there is anything that you would like to share with the evaluators that should not be public yet, please add it here.)
+
     - prompt: _(Your Name)
       type: text
       name: submitter_name
