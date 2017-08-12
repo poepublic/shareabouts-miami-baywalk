@@ -19,12 +19,40 @@ body {
 
 #site-title {
   font-family: 'Roboto', sans-serif;
-  background-image: url('images/miamidda-logo-bow.png');
+  background-image: url('images/miamidda-logo-white.png');
   background-repeat: no-repeat;
   background-position: center;
-  width: 300px;
-  height: 4rem;
+  background-color: #13193E;
   font-size: 0;
+}
+
+@media only screen and (min-width: 60em) {
+  #site-header {
+    height: 7.5rem;
+  }
+
+  #site-title {
+    background-size: 217px 55px;
+    margin-left: -1rem;
+    margin-top: -0.5rem;
+    width: 340px;
+    height: 7.5rem;
+  }
+
+  #map-container {
+    top: 7.5rem;
+  }
+
+  #ticker {
+    top: 7.5rem;
+  }
+}
+
+/* =Idea form
+-------------------------------------------------------------- */
+
+.place-location_type-field .radio-group {
+  text-align: center;
 }
 
 .place-location_type-field .label-text {
@@ -44,10 +72,6 @@ body {
   .place-location_type-field .label-text {
     width: 30%;
   }
-}
-
-.place-location_type-field .radio-group {
-  text-align: center;
 }
 
 .place-location_type-field input:checked + .label-text {
