@@ -203,13 +203,12 @@ place:
   adding_supported:
     from: '2017-07-28 00:00 -0500'   # Daylight savings begins mid-March
     until: '2017-11-01 00:00 -0400'  # and ends mid-October.
-  add_button_label: _(Add a Place)
+  add_button_label: _(Add an Idea)
   # Labels for the buttons that toggle the map and list views
   show_list_button_label: _(List All Ideas)
   show_map_button_label: _(Show the Map)
-  action_text: _(added)
   title: _(Tell us more...)
-  action_text: _(created)
+  action_text: _(added an idea about)
   anonymous_name: _(Someone)
   submit_button_label: _(Submit)
 
@@ -241,7 +240,7 @@ place:
         - key: required
 
     - prompt: _(What’s your big idea?)
-      name: intent
+      name: description
       type: textarea
       attrs:
         - key: maxlength
