@@ -27,6 +27,45 @@ body {
   font-size: 0;
 }
 
+.place-location_type-field .label-text {
+  color: black;
+  background-color: #F6F6F4;
+  background-position: center 0.5rem;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: 45%;
+  height: 8rem;
+  padding-top: 5rem;
+  vertical-align: top;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .place-location_type-field .label-text {
+    width: 30%;
+  }
+}
+
+.place-location_type-field .radio-group {
+  text-align: center;
+}
+
+.place-location_type-field input:checked + .label-text {
+  color: white;
+}
+
+input[value="education"] + .label-text { background-image: url(/static/css/images/markers/education-128.png); }
+input[value="entertainment"] + .label-text { background-image: url(/static/css/images/markers/entertainment-128.png); }
+input[value="engagement"] + .label-text { background-image: url(/static/css/images/markers/engagement-128.png); }
+input[value="culture"] + .label-text { background-image: url(/static/css/images/markers/culture-128.png); }
+input[value="wellness"] + .label-text { background-image: url(/static/css/images/markers/wellness-128.png); }
+
+input[value="education"]:checked + .label-text { background-color: #8DC63F; }
+input[value="entertainment"]:checked + .label-text { background-color: #E22C9B; }
+input[value="engagement"]:checked + .label-text { background-color: #009444; }
+input[value="culture"]:checked + .label-text { background-color: #510551; }
+input[value="wellness"]:checked + .label-text { background-color: #FBB040; }
+
 /* =Media Queries
 -------------------------------------------------------------- */
 
