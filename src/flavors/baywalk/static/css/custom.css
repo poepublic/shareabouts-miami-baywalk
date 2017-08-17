@@ -201,6 +201,61 @@ input[value="engagement"]:checked + .label-text { background-color: #009444; }
 input[value="culture"]:checked + .label-text { background-color: #510551; }
 input[value="wellness"]:checked + .label-text { background-color: #FBB040; }
 
+/* =Place Details
+-------------------------------------------------------------- */
+
+.place-detail .close-btn {
+  background-color: #13193E;
+}
+
+.place-header {
+  width: 100%;
+  margin: -1rem -1rem 1rem -1rem;
+  padding: 1rem;
+  background-color: #13193E;
+  color: white;
+}
+
+.place-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.promotion {
+  float: none;
+  background-color: #ACA9A9;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 0.5rem;
+  text-align: right;
+}
+
+.user-support {
+  display: inline-block;
+  width: auto;
+}
+
+.user-support label {
+
+}
+
+.support {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.social {
+  display: inline-block;
+}
+
+.share-link {
+  text-align: left;
+}
+
+
 /* =Media Queries
 -------------------------------------------------------------- */
 
