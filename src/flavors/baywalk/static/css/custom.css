@@ -17,29 +17,46 @@ body {
   color: #121b3d;
 }
 
-#site-title {
-  font-family: 'Roboto', sans-serif;
-  background-image: url('images/miamidda-logo-white.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #13193E;
-  font-size: 0;
-}
-
 @media only screen and (min-width: 60em) {
   #site-header {
     height: 7.5rem;
+    border-top: 2rem solid #ACA9A9;
   }
+}
 
+#site-title {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('images/miamidda-logo-bow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  font-size: 0;
+
+  width: 12rem;
+  height: 3rem;
+  margin-left: 3rem;
+  background-size: 11.84rem 3rem;
+}
+
+@media only screen and (min-width: 60em) {
   #site-title {
+    background-image: url('images/miamidda-logo-white.png');
+    background-color: #13193E;
     background-size: 217px 55px;
+    background-position: center 40%;
     margin-left: -1rem;
-    margin-top: -0.5rem;
+    margin-top: -2.5rem;
     width: 340px;
     height: 7.5rem;
   }
+}
 
+@media only screen and (min-width: 60em) {
   #map-container {
+    top: 7.5rem;
+  }
+
+  #content {
     top: 7.5rem;
   }
 
@@ -48,8 +65,102 @@ body {
   }
 }
 
+nav.access .btn-block {
+  border: none;
+  box-shadow: none;
+  background: none;
+  color: black;
+}
+
+nav.access .btn-block:hover {
+  color: #14c4dc;
+}
+
+.menu-item ul .btn {
+  text-transform: none;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 60em) {
+  nav.access .menu-item:hover ul {
+    border: none;
+    background-color: #13193E;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  nav.access .menu-item ul .btn-block {
+    color: white;
+    padding: 0.75rem 1.25rem
+  }
+
+  nav.access .menu-item ul .btn-block:hover {
+    color: white;
+    background-color: #14c4dc;
+  }
+}
+
 /* =Idea form
 -------------------------------------------------------------- */
+
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+  border-color: #e5e5e5;
+  background-color: #F6F6F4;
+  transition: all 0.2s ease 0s;
+}
+
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select:focus,
+textarea:focus {
+  border-color: #14c4dc;
+  outline: none;
+}
+
+.field label {
+  font-weight: bold;
+}
+
+.help-text {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.radio-label-text:hover,
+.checkbox-label-text:hover {
+  border-color: #14c4dc;
+}
+
+:checked + .radio-label-text,
+.radio-label-text.checked,
+:checked + .checkbox-label-text,
+.checkbox-label-text.checked {
+  border: 3px solid rgba(0,0,0,0.05);
+}
+
 
 .place-location_type-field .radio-group {
   text-align: center;
