@@ -68,7 +68,7 @@ map:
 
 place_types:
   education:
-    label: _(Education)
+    label: _(Education activation)
     rules:
       - condition: '"{{location_type}}" === "education" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -102,7 +102,7 @@ place_types:
           iconAnchor: [20, 20]
 
   entertainment:
-    label: _(Entertainment)
+    label: _(Entertainment activation)
     rules:
       - condition: '"{{location_type}}" === "entertainment" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -136,7 +136,7 @@ place_types:
           iconAnchor: [20, 20]
 
   engagement:
-    label: _(Engagement/Advocacy)
+    label: _(Engagement/Advocacy activation)
     rules:
       - condition: '"{{location_type}}" === "engagement" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -170,7 +170,7 @@ place_types:
           iconAnchor: [20, 20]
 
   culture:
-    label: _(Arts/Culture)
+    label: _(Arts/Culture activation)
     rules:
       - condition: '"{{location_type}}" === "culture" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -204,7 +204,7 @@ place_types:
           iconAnchor: [20, 20]
 
   wellness:
-    label: _(Health/Wellness)
+    label: _(Health/Wellness activation)
     rules:
       - condition: '"{{location_type}}" === "wellness" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -248,16 +248,16 @@ place:
   adding_supported:
     from: '2017-07-28 00:00 -0500'   # Daylight savings begins mid-March
     until: '2017-11-01 00:00 -0400'  # and ends mid-October.
-  add_button_label: _(Add an Idea)
+  add_button_label: _(Add an Activation)
   # Labels for the buttons that toggle the map and list views
-  show_list_button_label: _(List All Ideas)
+  show_list_button_label: _(List All Activations)
   show_map_button_label: _(Show the Map)
   title: _(Tell us more...)
-  action_text: _(added an idea about)
+  action_text: _(added)
   anonymous_name: _(Someone)
   submit_button_label: _(Submit)
 
-  location_item_name: idea
+  location_item_name: activation
 
   items:
     - prompt: _(What is the title of your idea?)
