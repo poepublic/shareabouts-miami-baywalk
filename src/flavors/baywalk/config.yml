@@ -286,13 +286,14 @@ place:
         - key: required
 
     - prompt: _(What’s your big idea?)
-      help_text: _(Sum it up in three sentences or less.)
       label: _(What’s the big idea:)
       name: description
       type: textarea
       attrs:
         - key: maxlength
-          value: 750
+          value: 1500
+        - key: placeholder
+          value: _(Sum it up in three sentences or less.)
 
     - prompt: _(What’s the purpose?)
       label: _(What’s the purpose:)
@@ -302,7 +303,7 @@ place:
         - key: placeholder
           value: _(So I can...)
         - key: maxlength
-          value: 100
+          value: 750
 
     - prompt: _(How do you define success?)
       label: _(How success is defined:)
@@ -310,7 +311,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 750
 
     - prompt: _(Who is your audience?)
       label: _(Who is the audience:)
@@ -318,7 +319,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 750
 
     - prompt: _(Who will help you market/promote this event?)
       label: _(Who will help market/promote the idea:)
@@ -334,7 +335,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 750
 
     - prompt: _(What is your timeline for implementation?  When would your events be held?)
       label: _(Timeline for implementation:)
@@ -342,7 +343,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 1500
 
     - prompt: _(What is your budget? Grant requests will be limited to $5,000 and below.)
       help_text: _(Please specify your anticipated expenses by line item.)
@@ -351,7 +352,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 1500
 
     - prompt: _(How will your proposal help grow awareness about Baywalk?)
       label: _(How will this proposal help grow awareness about the Baywalk:)
@@ -359,7 +360,7 @@ place:
       type: textarea
       attrs:
         - key: maxlength
-          value: 100
+          value: 750
 
     - prompt: _(Additional notes to the organizers)
       name: private_notes
