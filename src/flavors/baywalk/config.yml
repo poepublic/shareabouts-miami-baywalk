@@ -441,8 +441,8 @@ pages:
     start_page: true
 
   - title: _(About the Miami DDA)
-    external: true
-    url: http://www.miamidda.com/
+    slug: miamidda
+    name: about_miamidda
 
   - title: Filter Places
     slug: filter-type
