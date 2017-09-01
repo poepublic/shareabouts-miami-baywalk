@@ -4,6 +4,14 @@
  * NOTE: "With great power comes great responsibility."
  */
 
+ /*
+  * Colors:
+  * =======
+  *
+  * Bright pink: #E22C9B
+  * Dark Blue:
+  * Dark Gray: #ACA9A9
+  */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -51,6 +59,10 @@ body {
   }
 }
 
+#ticker {
+  background: #192143;
+}
+
 @media only screen and (min-width: 60em) {
   #map-container {
     top: 7.5rem;
@@ -63,6 +75,10 @@ body {
   #ticker {
     top: 7.5rem;
   }
+}
+
+#colophon {
+  background: #192143;
 }
 
 nav.access .btn-block {
@@ -242,10 +258,34 @@ input[value="wellness"]:checked + .label-text { background-color: #FBB040; }
 .user-support {
   display: inline-block;
   width: auto;
+  background-color: #E22C9B;
+  color: white;
+  border: none;
+  box-shadow: none;
+}
+
+.user-support:hover {
+  background-color: white;
+  color: #E22C9B;
 }
 
 .user-support label {
+  color: white;
+}
 
+.user-support:hover label {
+  color: #E22C9B;
+  background-color: white;
+}
+
+.social {
+  min-width: 70px;
+}
+
+.share-link a {
+  background-size: contain;
+  height: 26px;
+  width: 26px;
 }
 
 .support {
