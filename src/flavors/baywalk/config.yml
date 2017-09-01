@@ -78,6 +78,14 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "education" && {{map.zoom}} < 16 && {{layer.focused}} === false'
+        style:
+          color: '#8DC63F'
+          radius: 4
+          weight: 1
+          opacity: 0.9
+          fillOpacity: 1
+
       - condition: '"{{location_type}}" === "education" && {{map.zoom}} < 17 && {{layer.focused}} === false'
         style:
           color: '#F6F6F4'
@@ -87,19 +95,25 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "education" && {{map.zoom}} < 18 && {{layer.focused}} === false'
+        icon:
+          iconUrl: /static/css/images/markers/education-32.png
+          iconSize: [25, 25]
+          iconAnchor: [13, 13]
+
       - condition: '"{{location_type}}" === "education" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/education-32.png
-          iconSize: [19, 19]
-          iconAnchor: [10, 10]
+          iconSize: [29, 29]
+          iconAnchor: [15, 15]
 
       - condition: '"{{location_type}}" === "education" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/education-64.png
           # shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [39, 39]
+          iconSize: [59, 59]
           # shadowSize: [37, 37]
-          iconAnchor: [20, 20]
+          iconAnchor: [30, 30]
 
   entertainment:
     label: _(Entertainment activation)
@@ -108,6 +122,14 @@ place_types:
         style:
           color: '#E22C9B'
           radius: 3
+          weight: 1
+          opacity: 0.9
+          fillOpacity: 1
+
+      - condition: '"{{location_type}}" === "entertainment" && {{map.zoom}} < 16 && {{layer.focused}} === false'
+        style:
+          color: '#E22C9B'
+          radius: 4
           weight: 1
           opacity: 0.9
           fillOpacity: 1
@@ -121,19 +143,25 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "entertainment" && {{map.zoom}} < 18 && {{layer.focused}} === false'
+        icon:
+          iconUrl: /static/css/images/markers/entertainment-32.png
+          iconSize: [25, 25]
+          iconAnchor: [13, 13]
+
       - condition: '"{{location_type}}" === "entertainment" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/entertainment-32.png
-          iconSize: [19, 19]
-          iconAnchor: [10, 10]
+          iconSize: [29, 29]
+          iconAnchor: [15, 15]
 
       - condition: '"{{location_type}}" === "entertainment" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/entertainment-64.png
           # shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [39, 39]
+          iconSize: [59, 59]
           # shadowSize: [37, 37]
-          iconAnchor: [20, 20]
+          iconAnchor: [30, 30]
 
   engagement:
     label: _(Engagement/Advocacy activation)
@@ -142,6 +170,14 @@ place_types:
         style:
           color: '#009444'
           radius: 3
+          weight: 1
+          opacity: 0.9
+          fillOpacity: 1
+
+      - condition: '"{{location_type}}" === "engagement" && {{map.zoom}} < 16 && {{layer.focused}} === false'
+        style:
+          color: '#009444'
+          radius: 4
           weight: 1
           opacity: 0.9
           fillOpacity: 1
@@ -155,19 +191,25 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "engagement" && {{map.zoom}} < 18 && {{layer.focused}} === false'
+        icon:
+          iconUrl: /static/css/images/markers/engagement-32.png
+          iconSize: [25, 25]
+          iconAnchor: [13, 13]
+
       - condition: '"{{location_type}}" === "engagement" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/engagement-32.png
-          iconSize: [19, 19]
-          iconAnchor: [10, 10]
+          iconSize: [29, 29]
+          iconAnchor: [15, 15]
 
       - condition: '"{{location_type}}" === "engagement" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/engagement-64.png
           # shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [39, 39]
+          iconSize: [59, 59]
           # shadowSize: [37, 37]
-          iconAnchor: [20, 20]
+          iconAnchor: [30, 30]
 
   culture:
     label: _(Arts/Culture activation)
@@ -176,6 +218,14 @@ place_types:
         style:
           color: '#510551'
           radius: 3
+          weight: 1
+          opacity: 0.9
+          fillOpacity: 1
+
+      - condition: '"{{location_type}}" === "culture" && {{map.zoom}} < 16 && {{layer.focused}} === false'
+        style:
+          color: '#510551'
+          radius: 4
           weight: 1
           opacity: 0.9
           fillOpacity: 1
@@ -189,19 +239,25 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "culture" && {{map.zoom}} < 18 && {{layer.focused}} === false'
+        icon:
+          iconUrl: /static/css/images/markers/culture-32.png
+          iconSize: [25, 25]
+          iconAnchor: [13, 13]
+
       - condition: '"{{location_type}}" === "culture" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/culture-32.png
-          iconSize: [19, 19]
-          iconAnchor: [10, 10]
+          iconSize: [29, 29]
+          iconAnchor: [15, 15]
 
       - condition: '"{{location_type}}" === "culture" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/culture-64.png
           # shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [39, 39]
+          iconSize: [59, 59]
           # shadowSize: [37, 37]
-          iconAnchor: [20, 20]
+          iconAnchor: [30, 30]
 
   wellness:
     label: _(Health/Wellness activation)
@@ -210,6 +266,14 @@ place_types:
         style:
           color: '#FBB040'
           radius: 3
+          weight: 1
+          opacity: 0.9
+          fillOpacity: 1
+
+      - condition: '"{{location_type}}" === "wellness" && {{map.zoom}} < 16 && {{layer.focused}} === false'
+        style:
+          color: '#FBB040'
+          radius: 4
           weight: 1
           opacity: 0.9
           fillOpacity: 1
@@ -223,19 +287,25 @@ place_types:
           opacity: 0.9
           fillOpacity: 1
 
+      - condition: '"{{location_type}}" === "wellness" && {{map.zoom}} < 18 && {{layer.focused}} === false'
+        icon:
+          iconUrl: /static/css/images/markers/wellness-32.png
+          iconSize: [25, 25]
+          iconAnchor: [13, 13]
+
       - condition: '"{{location_type}}" === "wellness" && {{layer.focused}} === false'
         icon:
           iconUrl: /static/css/images/markers/wellness-32.png
-          iconSize: [19, 19]
-          iconAnchor: [10, 10]
+          iconSize: [29, 29]
+          iconAnchor: [15, 15]
 
       - condition: '"{{location_type}}" === "wellness" && {{layer.focused}} === true'
         icon:
           iconUrl: /static/css/images/markers/wellness-64.png
           # shadowUrl: /static/css/images/circle-shadow.png
-          iconSize: [39, 39]
+          iconSize: [59, 59]
           # shadowSize: [37, 37]
-          iconAnchor: [20, 20]
+          iconAnchor: [30, 30]
 
 
 activity:
