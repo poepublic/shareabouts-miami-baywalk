@@ -17,6 +17,24 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.btn {
+  color: white;
+  background-color: #E22C9B;
+  transition: all 0.2s ease 0s;
+}
+
+.btn:hover {
+  background-color: #F23CAB;
+}
+
+.btn-primary {
+  background-color: #00aaff;
+}
+
+.btn-primary:hover {
+  background-color: #007fbf;
+}
+
 /* =Header
 -------------------------------------------------------------- */
 
