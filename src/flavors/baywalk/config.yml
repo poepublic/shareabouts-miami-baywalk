@@ -164,7 +164,7 @@ place_types:
           iconAnchor: [30, 30]
 
   engagement:
-    label: _(Engagement/Advocacy activation)
+    label: _(Engagement activation)
     rules:
       - condition: '"{{location_type}}" === "engagement" && {{map.zoom}} < 15 && {{layer.focused}} === false'
         style:
@@ -317,7 +317,7 @@ activity:
 place:
   adding_supported:
     from: '2017-07-28 00:00 -0500'   # Daylight savings begins mid-March
-    until: '2017-11-01 00:00 -0400'  # and ends mid-October.
+    until: '2017-10-21 00:00 -0400'  # and ends mid-October.
   add_button_label: _(Add an Activation)
   # Labels for the buttons that toggle the map and list views
   show_list_button_label: _(List All Activations)
@@ -345,7 +345,7 @@ place:
           value: education
         - label: _(Entertainment)
           value: entertainment
-        - label: _(Engagement / Advocacy)
+        - label: _(Engagement)
           value: engagement
         - label: _(Arts / Culture)
           value: culture
@@ -526,7 +526,7 @@ pages:
       - title: _(Entertainment)
         url: /filter/entertainment
         external: true
-      - title: _(Engagement/Advocacy)
+      - title: _(Engagement)
         url: /filter/engagement
         external: true
       - title: _(Arts/Culture)
