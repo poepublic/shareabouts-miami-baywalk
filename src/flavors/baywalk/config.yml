@@ -260,7 +260,7 @@ place:
   location_item_name: activation
 
   items:
-    - prompt: _(What is the title of your idea?)
+    - prompt: _(1. What is the title of your idea?)
       label: _(Title of the idea:)
       name: title
       type: text
@@ -268,7 +268,7 @@ place:
         - key: size
           value: 100
 
-    - prompt: _(What kind of activation is it?)
+    - prompt: _(2. What kind of activation is it?)
       type: radiogroup
       options:
         - label: _(Education)
@@ -285,17 +285,17 @@ place:
       attrs:
         - key: required
 
-    - prompt: _(What’s your big idea?)
+    - prompt: _(3. What’s your big idea?)
       label: _(What’s the big idea:)
       name: description
       type: textarea
       attrs:
         - key: maxlength
-          value: 1500
+          value: 750
         - key: placeholder
           value: _(Sum it up in three sentences or less.)
 
-    - prompt: _(What’s the purpose?)
+    - prompt: _(4. What’s the purpose?)
       label: _(What’s the purpose:)
       name: intent
       type: textarea
@@ -305,7 +305,7 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(How do you define success?)
+    - prompt: _(5. How do you define success?)
       label: _(How success is defined:)
       name: success
       type: textarea
@@ -313,7 +313,7 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(Who is your audience?)
+    - prompt: _(6. Who is your audience?)
       label: _(Who is the audience:)
       name: audience
       type: textarea
@@ -321,7 +321,7 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(Who will help you market/promote this event?)
+    - prompt: _(7. Who will help you market/promote this event?)
       label: _(Who will help market/promote the idea:)
       name: promoters
       type: textarea
@@ -329,7 +329,7 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(Who do you need to work with to make this happen? Who are your partners and/or sponsors?)
+    - prompt: _(8. Who do you need to work with to make this happen? Who are your partners and/or sponsors?)
       label: _(Partners and/or sponsors:)
       name: partners
       type: textarea
@@ -337,24 +337,24 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(What is your timeline for implementation?  When would your events be held?)
+    - prompt: _(9. What is your timeline for implementation?  When would your events be held?)
       label: _(Timeline for implementation:)
       name: timeline
       type: textarea
       attrs:
         - key: maxlength
-          value: 1500
+          value: 750
 
-    - prompt: _(What is your budget? Grant requests will be limited to $5,000 and below.)
+    - prompt: _(10. What is your budget? Grant requests will be limited to $5,000 and below.)
       help_text: _(Please specify your anticipated expenses by line item.)
       label: _(Budget:)
       name: budget
       type: textarea
       attrs:
         - key: maxlength
-          value: 1500
+          value: 750
 
-    - prompt: _(How will your proposal help grow awareness about Baywalk?)
+    - prompt: _(11. How will your proposal help grow awareness about Baywalk?)
       label: _(How will this proposal help grow awareness about the Baywalk:)
       name: growing_awareness
       type: textarea
@@ -362,7 +362,7 @@ place:
         - key: maxlength
           value: 750
 
-    - prompt: _(Additional notes to the organizers)
+    - prompt: _(12. Additional notes to the organizers)
       name: private_notes
       type: textarea
       help_text: _(All of the information above will be public on the website. If there is anything that you would like to share with the evaluators that should not be public yet, please add it here.)
