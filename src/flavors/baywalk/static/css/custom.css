@@ -282,6 +282,10 @@ input[value="wellness"]:checked + .label-text { background-color: #FBB040; }
   color: #999;
 }
 
+.place-list .place-item-attachment {
+  margin-left: -16rem;
+}
+
 .promotion {
   float: none;
   background-color: #ACA9A9;

@@ -366,6 +366,14 @@ place:
         - key: placeholder
           value: _(Sum it up in three sentences or less.)
 
+    - prompt: _(If you have an image, photo, and/or rendering that helps describe and illustrate your idea, upload here:)
+      inputfile_label: _(Upload an image)
+      type: file
+      name: illustration
+      attrs:
+        - key: accept
+          value: image/*
+
     - prompt: _(4. What’s the purpose?)
       label: _(What’s the purpose:)
       name: intent
