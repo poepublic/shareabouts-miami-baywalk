@@ -46,6 +46,12 @@ body {
   }
 }
 
+.page-about img.splash {
+  float: right;
+  width: 40%;
+  margin: 0 0 1rem 1rem;
+}
+
 /* =Header
 -------------------------------------------------------------- */
 
