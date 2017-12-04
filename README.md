@@ -5,6 +5,14 @@ Shareabouts [![Build Status](https://secure.travis-ci.org/openplans/shareabouts.
 
 Shareabouts is an online mapping tool to gather crowdsourced public input in a social and engaging process. Using Shareabouts, people can drop a pin on a map to provide ideas, suggestions, and comments for planning and design issues. And as a mobile-friendly application, Shareabouts makes it easy to add input on the go.
 
+Miami DDA-specific
+------------------
+
+To export the page for finalists, run the following from _src/flavors/baywalk_:
+
+    ./makefinalistspage.py > jstemplates/pages/finalists.html
+
+
 A short guide to setting up Shareabouts
 -----------
 
@@ -31,7 +39,7 @@ All of our documentation is is our `doc` directory. Use it to learn more about:
 * [upgrading from an older version](https://github.com/openplans/shareabouts/blob/master/doc/UPGRADE.md)
 * [getting your data once you have a map running](https://github.com/openplans/shareabouts/blob/master/doc/GETTING_YOUR_DATA.md)
 
-Questions? Problems? Ideas? 
+Questions? Problems? Ideas?
 --------------------
 
 If you encounted a bug, [create an issue](https://github.com/openplans/shareabouts/issues) on this GitHub repo.

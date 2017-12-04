@@ -517,11 +517,15 @@ pages:
   - title: _(Baywalk Activation Grant)
     slug: about
     name: overview
-    start_page: true
 
   - title: _(About the Miami DDA)
     slug: miamidda
     name: about_miamidda
+
+  - title: _(Finalists)
+    slug: finalists
+    name: finalists
+    start_page: true
 
   - title: Filter Places
     slug: filter-type
